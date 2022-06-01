@@ -39,12 +39,13 @@ export const Results = () => {
           ))}
         </div>
       )
-    case '/images':
+    case '/image':
       return (
         <div className='flex flex-wrap justify-center items-center'>
+          {console.log(results)}
           {results?.map(({ image, link: {href, title} }, index) => (
             <a className="sm:p-3 p-5" href={href} key={index} target="_blank" rel="noreferrer">
-              <img src={image?.src} alt={title} loading="lazy" />
+              <img src={image.src} alt={title} loading="lazy" />
               <p className='w-36 break-words text-sm mt-2'>
                 {title}
               </p>
@@ -61,12 +62,12 @@ export const Results = () => {
                 <p className="text-lg dark:text-blue-300 text-blue-700">
                   {title}
                 </p>
+              </a>
                 <div className='flex gap-4'>
                   <a href={source?.href} target="_blank" rel="noreferrer">
                     {source?.href}
                   </a>
                 </div>
-              </a>
             </div>
           ))}
         </div>
@@ -76,7 +77,7 @@ export const Results = () => {
         <div className="flex flex-wrap">
           {results.map((video, index) => (
             <div key={index} className='p-2'>
-              <ReactPlayer url={video.additional_links?.[0].href} controls width="355px" height="200px"/>
+              {video?.additional_links?.[0]?.href && <ReactPlayer url={video.additional_links?.[0].href} controls width="355px" height="200px"/>}
             </div>
           ))}
         </div>

@@ -15,4 +15,4 @@ The only things I'm using are
 3. RapidAPI (lets me use API's)
 
 ## Current Stage
-In Development (May 28, 2022)
+Completed (June 1, 2022)
