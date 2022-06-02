@@ -16,3 +16,8 @@ The only things I'm using are
 
 ## Current Stage
 Completed (June 1, 2022)
+
+## Blog Post
+You can find the documentation of how this was made below.
+
+https://www.blogger.com/u/3/blog/post/edit/1295950509809648184/5563865127996011836
