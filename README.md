@@ -2,7 +2,7 @@
 
 ## The app is done!
 Try it here!
-https://aishyuu.github.io/search
+https://aishyuu.github.io/Goggles/
 
 ## Description
 This is a search engine that has all the functionality of Google's.
