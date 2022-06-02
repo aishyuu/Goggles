@@ -20,4 +20,4 @@ Completed (June 1, 2022)
 ## Blog Post
 You can find the documentation of how this was made below.
 
-https://www.blogger.com/u/3/blog/post/edit/1295950509809648184/5563865127996011836
+https://imatiasc.blogspot.com/2022/06/google-clone.html
