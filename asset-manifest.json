@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Goggles/static/css/main.5ae89c48.css",
-    "main.js": "/Goggles/static/js/main.5c46e869.js",
+    "main.js": "/Goggles/static/js/main.dce39b62.js",
     "index.html": "/Goggles/index.html",
     "main.5ae89c48.css.map": "/Goggles/static/css/main.5ae89c48.css.map",
-    "main.5c46e869.js.map": "/Goggles/static/js/main.5c46e869.js.map"
+    "main.dce39b62.js.map": "/Goggles/static/js/main.dce39b62.js.map"
   },
   "entrypoints": [
     "static/css/main.5ae89c48.css",
-    "static/js/main.5c46e869.js"
+    "static/js/main.dce39b62.js"
   ]
 }
